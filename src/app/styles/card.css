@@ -1,0 +1,25 @@
+.card__item img {
+  max-width: 200px;
+  height: 250px;
+  width: 100%;
+}
+
+.card__item {
+  border: 2px solid #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 10px;
+  border-radius: 8px;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.card__info {
+  text-align: center;
+}
+
+.card__name {
+  height: 50px;
+}
