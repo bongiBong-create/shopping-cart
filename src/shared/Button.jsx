@@ -1,5 +1,5 @@
-export default function Button({ text, styleBtn }) {
+export default function Button({text, styleBtn, onclick }) {
   return (
-    <a className={styleBtn} href="#">{text}</a>
+    <button onClick={onclick} className={styleBtn}>{text}</button>
   )
 }

@@ -15,6 +15,11 @@ body {
   height: 100%;
 }
 
+button {
+  cursor: pointer;
+  background: transparent;
+}
+
 ol, ul, li {
   list-style: none;
   text-decoration: none;
@@ -29,4 +34,21 @@ a {
   width: 90%;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+@media (max-width: 1000px) {
+  .btn__shop {
+    font-size: 8px;
+  }
+}
+
+@media (max-width:600px) {
+  .store .cards {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  .about .about__text {
+    font-size: 20px;
+  }
+  
 }

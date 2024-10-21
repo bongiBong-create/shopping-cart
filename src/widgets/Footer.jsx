@@ -1,16 +1,15 @@
+import { Link, Outlet } from "react-router-dom";
 import "../app/styles/footer.css";
-import Button from "../shared/Button";
 
 export default function Footer() {
   return (
     <footer className="footer">
       <nav className="nav">
-        nav
+        <Link className="link" to="/store">store</Link>
+        <Link className="link" to="/">main</Link>
       </nav>
-
-      <Button styleBtn="footer__btn" text="КАТАЛОГ"/>
-
       <div className="name">bongiBong-create 2024 c</div>
+      <Outlet />
     </footer>
   )
 }
