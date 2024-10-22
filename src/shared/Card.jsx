@@ -17,7 +17,6 @@ export default function Card({ data, setCart }) {
         }}
         animate={{
           opacity: 1,
-          rotate: [180, 0],
         }}
         transition={{ duration: 1 }}
         className="card__item">
